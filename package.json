@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmiloarguello/test-react.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Camilo Arguello",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.23.1",
@@ -16,5 +17,12 @@
     "babel-preset-react": "^6.23.0",
     "json-loader": "^0.5.4",
     "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "build": "webpack -w",
+    "start": "node built/server/index.js"
+  },
+  "dependencies": {
+    "react-router": "^4.0.0-beta.6"
   }
 }
