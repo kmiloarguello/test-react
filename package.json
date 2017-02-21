@@ -23,6 +23,6 @@
     "start": "node built/server/index.js"
   },
   "dependencies": {
-    "react-router": "^4.0.0-beta.6"
+    "react-router-dom": "^4.0.0-beta.6"
   }
 }
